@@ -12,7 +12,7 @@ function gameplay(){
 }
 
 function askPlayer(){
-    const givenNumber = askNumber()
+    let givenNumber = askNumber()
     while (givenNumber < 0 || givenNumber > 50){
         givenNumber = askNumber()
     }
